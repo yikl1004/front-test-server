@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "defaultLocale": "ko_kr",
+  "modes": [
+    "query",
+    "subdomain",
+    "cookie",
+    "header",
+    "url",
+    "tld"
+  ],
+  "cookieName": "locale"
+}

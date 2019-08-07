@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "react-example-shard-00-00-bsssc.mongodb.net:27017,react-example-shard-00-01-bsssc.mongodb.net:27017,react-example-shard-00-02-bsssc.mongodb.net:27017/test?ssl=true&replicaSet=react-example-shard-0&authSource=admin&retryWrites=true",
+        "port": 27017,
+        "database": "test",
+        "username": "admin",
+        "password": "gkskzh9512",
+        "srv": false
+      },
+      "options": {
+        "ssl": true,
+        "w": "majority"
+      }
+    }
+  }
+}
